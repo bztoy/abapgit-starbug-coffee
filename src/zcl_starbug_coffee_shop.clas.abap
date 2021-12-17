@@ -11,9 +11,11 @@ ENDCLASS.
 
 
 
-CLASS zcl_starbug_coffee_shop IMPLEMENTATION.
+CLASS ZCL_STARBUG_COFFEE_SHOP IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
     out->write( 'Welcome to the Starbug Coffee shop' ).
+    out->write( 'There are new arrival menu for this winter' ).
   ENDMETHOD.
-
 ENDCLASS.
