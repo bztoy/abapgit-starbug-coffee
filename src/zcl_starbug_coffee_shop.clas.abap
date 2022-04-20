@@ -18,5 +18,6 @@ CLASS ZCL_STARBUG_COFFEE_SHOP IMPLEMENTATION.
     out->write( 'Welcome to the Starbug Coffee shop' ).
     out->write( 'There are new arrival menu for this winter' ).
     out->write( 'New menu arrived, it is lemon+soda with strawberry' ).
+    out->write( 'Another new menu is longblack' ).
   ENDMETHOD.
 ENDCLASS.
